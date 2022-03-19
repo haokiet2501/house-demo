@@ -831,7 +831,7 @@ button {
   opacity: 0.75;
 }
 
-@media (max-width: 414px) {
+@media (min-width: 375px) {
   .textarea {
     height: 200px;
   }

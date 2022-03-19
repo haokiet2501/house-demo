@@ -56,6 +56,93 @@ button {
   height: 300px;
   border-radius: 1rem;
 }
+
+@media (max-width: 375px) {
+  .textarea {
+    height: 200px;
+  }
+
+  .landlordName {
+    font-size: 1rem !important;
+  }
+
+  .pageHeader {
+    font-size: 1.3rem !important;
+  }
+
+  .logOut {
+    font-size: 0.8rem !important;
+  }
+
+  .messageDiv {
+    margin-bottom: 1rem !important;
+  }
+
+  .formInputLocation {
+    padding: 1rem !important;
+    width: 8rem !important;
+  }
+
+  .explore {
+    margin: 1rem 3rem 0 !important;
+  }
+
+  .profileEdit {
+    margin: 3rem 2rem !important;
+    height: 195vh !important;
+  }
+  
+  ul.listingsList {
+    padding: 10px 15px !important;
+  }
+
+  .listingsText {
+    font-size: 0.8rem !important;
+  }
+
+  li.categoryListing {
+    margin-bottom: 2rem;
+  }
+
+  .categoryListingLocation {
+    font-size: 0.7rem !important;
+  }
+
+  .categoryListingName {
+    font-size: 1rem !important;
+  }
+
+  .categoryListingPrice {
+    font-size: 0.8rem !important;
+  }
+
+  .categoryListingInfoText {
+    font-size: 0.5rem !important;
+  }
+
+  .bedIcon {
+    width: 20px !important;
+    height: 25px !important;
+  }
+
+  .bathIcon {
+    width: 20px !important;
+    height: 25px !important;
+  }
+
+  .exploreCategoryHeading {
+    margin-top: 1rem !important;
+  }
+
+  .primaryButton {
+    padding: 1rem 2rem !important;
+  }
+
+  .createListingButton {
+    margin-top: 1rem !important;
+  }
+}
+
 .primaryButton {
   cursor: pointer;
   background: #00cc66;
@@ -829,98 +916,4 @@ button {
   margin-left: 1rem;
   font-size: 0.8rem;
   opacity: 0.75;
-}
-
-@media (max-width: 414px) {
-  .textarea {
-    height: 200px;
-  }
-
-  .discountPrice {
-    font-size: 0.6rem !important;
-  }
-
-  .listingType {
-    font-size: 0.6rem !important;
-  }
-
-  .landlordName {
-    font-size: 1rem !important;
-  }
-
-  .pageHeader {
-    font-size: 1.3rem !important;
-  }
-
-  .logOut {
-    font-size: 0.8rem !important;
-  }
-
-  .messageDiv {
-    margin-bottom: 1rem !important;
-  }
-
-  .formInputLocation {
-    padding: 1rem !important;
-    width: 8rem !important;
-  }
-
-  .explore {
-    margin: 1rem 3rem 0 !important;
-  }
-
-  .profileEdit {
-    margin: 3rem 2rem !important;
-    height: 195vh !important;
-  }
-  
-  ul.listingsList {
-    padding: 10px 15px !important;
-  }
-
-  .listingsText {
-    font-size: 0.8rem !important;
-  }
-
-  li.categoryListing {
-    margin-bottom: 2rem;
-  }
-
-  .categoryListingLocation {
-    font-size: 0.7rem !important;
-  }
-
-  .categoryListingName {
-    font-size: 1rem !important;
-  }
-
-  .categoryListingPrice {
-    font-size: 0.8rem !important;
-  }
-
-  .categoryListingInfoText {
-    font-size: 0.5rem !important;
-  }
-
-  .bedIcon {
-    width: 20px !important;
-    height: 25px !important;
-  }
-
-  .bathIcon {
-    width: 20px !important;
-    height: 25px !important;
-  }
-
-  .exploreCategoryHeading {
-    margin-top: 1rem !important;
-  }
-
-  .primaryButton {
-    padding: 1rem 2rem !important;
-  }
-
-  .createListingButton {
-    margin-top: 1rem !important;
-  }
 }

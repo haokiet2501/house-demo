@@ -831,17 +831,9 @@ button {
   opacity: 0.75;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .textarea {
     height: 200px;
-  }
-
-  .discountPrice {
-    font-size: 0.6rem !important;
-  }
-
-  .listingType {
-    font-size: 0.6rem !important;
   }
 
   .landlordName {
